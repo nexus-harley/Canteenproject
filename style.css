@@ -1,0 +1,42 @@
+*{
+    text-align: center;
+}
+h1,h3{
+    font-family: sans-serif;
+}
+table{
+    
+    color: black;
+    text-align: center;
+    width: 100%;
+    
+}
+td{
+    /* border: 2px black solid; */
+    font-family: cursive;
+    border-radius: 20px;
+    padding: 10px;
+    transition: ease 0.6s;
+    opacity: 0.9;
+    box-shadow: 1px 1px 20px 1px;
+}
+
+td:hover,img:hover{
+    transform: scale(0.9);
+    border-radius: 30px;
+}
+.card_container{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    background: rgb(213, 191, 191);
+    margin: 20px;
+}
+img{
+    margin-top: 10px;
+    width: 300px;
+    height: 200;
+    border-radius: 10px;
+    transition: ease 0.6s;
+    opacity: 1;
+}
